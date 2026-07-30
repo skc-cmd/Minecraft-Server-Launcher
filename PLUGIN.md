@@ -21,7 +21,7 @@ Minecraft Server Launcher 支持通过 `plugin` 文件夹加载外部插件，�
 
 ### 命名规范
 
-* 插件文件夹名称建议使用英文小写字母和连字符，如 `backup-tool`、`world-manager`
+* 插件文件夹名称必须使用英文小写字母和连字符，如 `backup-tool`、`world-manager`，否则无法识别。
 * 可执行文件名称建议与插件名称保持一致
   
   ## config.json 配置说明
